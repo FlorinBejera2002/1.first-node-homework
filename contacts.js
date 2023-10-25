@@ -14,7 +14,7 @@ function contactList() {
 try {
     const contacts = JSON.parse(data);
     console.log("Contacts:");
-    fs.readFile(contacts, index)=> {
+    fs.readFile(contacts, index) => {
         console.log(`${index}. Name:${contacts.name}, Eamil:${contacts.email}, Phone:${contacts.phone}`);
     }
 }
