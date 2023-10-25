@@ -24,5 +24,5 @@ catch (error) {
 }
 
 function contactGet(contactId) {
-fs.readFile(contactPath, 'utf-8',)
+fs.readFile(contactPath, 'utf-8',(err, data) =>{})
 }
