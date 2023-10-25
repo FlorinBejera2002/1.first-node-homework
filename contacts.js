@@ -29,5 +29,9 @@ fs.readFile(contactPath, 'utf-8',(err, data) =>{
     console.error("Error rading contact:", err);
      return;
     }
-})
+});
+try {
+    const contacts = JSON.parse(data);
+    
+}
 }
