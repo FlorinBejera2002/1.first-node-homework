@@ -27,7 +27,7 @@ function contactGet(contactId) {
 fs.readFile(contactPath, 'utf-8',(err, data) =>{
     if(err){
     console.error("Error rading contact:", err);
-     
+     return;
     }
 })
 }
