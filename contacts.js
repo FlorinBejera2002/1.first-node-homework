@@ -22,3 +22,7 @@ catch (error) {
     console.error("Error:", error);
     return;
 }
+
+function contactGet(contactId) {
+fs.readFile()
+}
