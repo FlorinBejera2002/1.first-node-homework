@@ -32,6 +32,6 @@ fs.readFile(contactPath, 'utf-8',(err, data) =>{
 });
 try {
     const contacts = JSON.parse(data);
-    
+    console.log ()
 }
 }
